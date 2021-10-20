@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 62.5%;
+  font-family: "Shadows Into Light Two", cursive;
+  background: #642b73;
+  background: linear-gradient(to bottom, #c6426e, #642b73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+    padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: rgba(189, 189, 189, 0.5);
+  &__title {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+  }
+  &__instruction {
+    margin-bottom: 1rem;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 300;
+  }
+  &__image {
+    width: 50%;
+    object-fit: cover;
+  }
+  &__subtitle {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  &__question {
+    width: 60%;
+    margin: 1rem 0;
+    padding: 0.2rem;
+    font-size: 1.6rem;
+    font-family: "Shadows Into Light Two", cursive;
+  }
+  &__warning {
+    color: rgb(221, 190, 15);
+    margin: 1rem 0;
+  }
+}
