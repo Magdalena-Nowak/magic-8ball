@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-size: 62.5%;
   font-family: "Shadows Into Light Two", cursive;
   background: #642b73;
@@ -40,6 +40,8 @@ body {
 .game__image {
   width: 50%;
   object-fit: cover;
+  cursor: pointer;
+  transition: all 1s ease-in-out alternate;
 }
 
 .game__subtitle {
@@ -50,7 +52,7 @@ body {
   text-transform: uppercase;
 }
 
-.game__question {
+.game__input {
   width: 60%;
   margin: 1rem 0;
   padding: 0.2rem;
@@ -61,5 +63,34 @@ body {
 .game__warning {
   color: #ddbe0f;
   margin: 1rem 0;
+}
+
+.game__answer {
+  font-family: "Commissioner", sans-serif;
+}
+
+.shake-animation {
+  animation: shake 1.5s 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-10rem);
+  }
+  20% {
+    transform: translateX(10rem);
+  }
+  40% {
+    transform: translateX(-6rem);
+  }
+  60% {
+    transform: translateX(6rem);
+  }
+  80% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */
