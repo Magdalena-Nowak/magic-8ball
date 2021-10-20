@@ -16,7 +16,7 @@ const ballAnimation = () => {
 };
 
 const showAnswers = (input) => {
-  const answerNr = Math.floor(Math.random() * (answers.length - 1));
+  const answerNr = Math.floor(Math.random() * answers.length);
   gameAnswer.textContent = `Odpowiedź: ${answers[answerNr]}`;
 };
 
