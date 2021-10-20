@@ -1,3 +1,3 @@
 # magic-8ball
 
-Live demo: https://awesome-wescoff-a6a9a2.netlify.app/
+Live demo: https://mystifying-easley-82ea17.netlify.app
